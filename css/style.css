@@ -1,1 +1,368 @@
-/* Add all your styles here */
+body{
+  font: 35px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:10;
+  background-color:#8098ff;
+}
+/* body{
+  min-height:1000px;
+  background:url('GSC.mp4');
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+}
+ */
+.h_button{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    font-size:90px;
+    position:absolute;
+    top: 300px;
+    left: 300px;
+} 
+ 
+/*header**/
+header{
+  background:#35424a;
+  color:#ffffff;
+  padding-top:30px;
+  min-width: 100%;
+  min-height:120px;
+  border-bottom:#2beaff 10px solid;
+}
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:32px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+  font-size:50px;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#8098ff;
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+#h1{
+    font-size:90px;
+    text-align:center;
+}
+
+#paragraph{
+    font-size:30px;
+    font-weight:bold;
+}
+#link{
+    text-decoration:none;
+    color:black;
+}
+
+div #tcode{
+    width: 800px;
+    height: 600px;
+    font-size:36px;
+    text-align:center;    
+}
+div #tab2{
+    width: 950px;
+    height: 2500px;
+    font-size:46px;
+    text-align:center;
+    font-weight:bold;
+}
+div #py{
+    color:black ;
+    text-decoration:none;
+    font-weight:bold;
+}
+#photos{
+    background-color:#9055ff;
+    width: 320px;
+    height: 80px;
+    border:0;
+    padding:0 30px 0 30px;
+    font-size:35px;
+}
+div #baton{
+   text-align:center; 
+   float:center;
+   display:inline;
+   padding: 0 20px 0 20px;
+}    
+
+div #baton1{
+    width: 450px;
+    height: 80px;
+    color:#ffffff;
+    font-size:50px;
+    background-color:#6500ff;
+}    
+
+#box img{
+  width:950px;
+  height:630px;
+  border:#000000 5px solid;
+} 
+ 
+#box2 img{
+    width:530px;
+    height:700px;
+    border:#7a00ff 10px solid;    
+}
+
+#table img{
+    width:700px;
+    height:900px;
+    border:white 5px solid;
+}
+#movielist{
+    font-size:40px;
+    font-weight:bold;
+    padding: 0 50px 0 50px;
+    margin: 20px;
+    color:#eaeaff;
+}
+/* log in form */
+#login_button{
+    text-align:center;
+    margin:20px;
+    height:200px;
+    width: 200px;
+    background:#40e0ff;
+    border:#2beaff 8px solid;
+    border-radius: 100px;
+    color:#000000;
+}
+#login_button a{
+    text-decoration:none;
+    font-size:50px;
+}
+.button_1{
+  margin-top:40px;
+  height:70px;
+  width: 190px;
+  background:#40e0ff;
+  border:#2beaff 3px solid;
+  border-radius: 10px;
+  font-size:35px;
+  color:#000000;
+}
+#formtable{
+    margin-top:500px;
+}
+#loginform{
+    height: 750px;
+    width: 850px;
+    text-align:center;
+    background-color:#40e0ff;
+    border:#2beaff 10px solid;
+    border-radius: 45px;   
+}
+
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#0096ff;
+  font-size:40px;
+  border:#404eff 5px solid;
+  border-radius:5px;   
+} 
+
+#he1{
+  text-align:center;
+  color:#ffffff;
+}
+
+#newsletter form {
+  float:center;
+  margin-top:15px;
+  align:center;
+  
+}
+
+#newsletter input[type="email"]{
+  padding-left:25px;
+  height:65px;
+  width:450px;
+  font-size:30px;
+  border:#2beaff 3px solid;
+  border-radius: 10px;
+}
+#newsletter input[type="password"]{
+  margin-top:5px;
+  padding-left:25px;
+  height:65px;
+  width:450px;
+  font-size:30px;
+  border:#2beaff 3px solid;
+  border-radius: 10px;
+}
+/* sign up form */
+#newsletter_signup{
+  padding:15px;
+  color:#ffffff;
+  background:#0096ff;
+  font-size:40px;
+  border:#404eff 5px solid;
+  border-radius:5px;   
+}
+#sign_up_form{
+    height: 1650px;
+    width: 850px;
+    text-align:center;
+    background-color:#40e0ff;
+    border:#2beaff 10px solid;
+    border-radius: 25px;  
+}
+#tab2{
+    margin-top:200px;    
+}
+
+#newsletter_signup input[type="email"]{
+  margin-top:20px;
+  padding-left:25px;
+  height:65px;
+  width:455px;
+  font-size:30px;
+  border:#2beaff 3px solid;
+  border-radius: 10px;
+}
+#newsletter_signup input[type="text"]{
+  margin-top:20px;
+  padding-left:25px;
+  height:65px;
+  width:375px;
+  font-size:30px;
+  border:#2beaff 3px solid;
+  border-radius: 10px;
+}
+#newsletter_signup input[type="number"]{
+  margin-top:20px;
+  padding-left:20px;
+  height:65px;
+  width:455px;
+  font-size:30px;
+  border:#2beaff 3px solid;
+  border-radius: 10px;
+}
+#newsletter_signup input[type="date"]{
+  margin-top:20px;
+  padding-left:25px;
+  height:65px;
+  width:340px;
+  font-size:30px;
+  border:#2beaff 3px solid;
+  border-radius: 10px;
+}
+#newsletter_signup select[type="gender"]{
+  margin-top:20px;
+  padding-left:25px;
+  height:65px;
+  width:460px;
+  font-size:30px;
+  border:#2beaff 3px solid;
+  border-radius: 10px;
+}
+#newsletter_signup li{
+  float:center;
+  display:inline-block;
+  padding: 0 10px 0 10px;
+}
+
+#newsletter_signup li input[type="checkbox"]{
+  height:30px;
+  width:30px;
+}
+
+#newsletter_signup input[type="password"]{
+  margin-top:20px;
+  padding-left:25px;
+  height:65px;
+  width:350px;
+  font-size:30px;
+  border:#2beaff 3px solid;
+  border-radius: 10px;
+}
+#newsletter_signup input[type="username"]{
+  margin-top:20px;
+  padding-left:25px;
+  height:65px;
+  width:390px;
+  font-size:30px;
+  border:#2beaff 3px solid;
+  border-radius: 10px;
+}
+/* Video */
+#intro{
+    margin: 40px;
+    width:800px;
+    border:#00136a 10px solid;
+    border-radius: 20px;
+    
+}
+
+/*footer**/
+footer{
+  padding:20px;
+  border-top:#00136a 10px solid;
+  color:#ffffff;
+  background-color:#2beaff;
+  text-align:center;
+  margin-top:800px;
+}
+footer li{
+  float:center;
+  display:inline;
+  padding:0 20px 0 20px;
+}
+footer #fb{
+    width: 250px;
+    height: 70px;
+    background-color:#0017ece8;
+    font-size:46px;
+    border:0;
+    border-radius: 20px;
+}
+footer #yt{
+    width: 250px;
+    height: 70px;
+    background-color:#ff001f;
+    font-size:46px;
+    border:0;
+    border-radius: 20px;
+}
+footer #con{
+    color:#ffffff;
+    font-size:50px;
+    font-weight:bold;
+    text-align:center;
+    
+}
+footer #copy{
+    font-size:15px;
+    color:#000000;
+}
