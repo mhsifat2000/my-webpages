@@ -1,17 +1,9 @@
 body{
   font: 35px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
-  margin:10;
-  background-color:#8098ff;
+  margin:0; 
+  background:linear-gradient(8deg,#ff0088b0,#85ff408c,#1100ff8c);
 }
-/* body{
-  min-height:1000px;
-  background:url('GSC.mp4');
-  background-position: center;
-  background-size: cover;
-  text-align:center;
-}
- */
 .h_button{
     width: 400px;
     height: 400px;
@@ -21,17 +13,18 @@ body{
     top: 300px;
     left: 300px;
 } 
- 
+
 /*header**/
 header{
   background:#35424a;
   color:#ffffff;
   padding-top:30px;
-  min-width: 100%;
-  min-height:120px;
+  width: 100%;
+  height:120px;
   border-bottom:#2beaff 10px solid;
   position:sticky;
   top: 0;
+  z-index:999999;
 }
 header a{
   color:#ffffff;
@@ -51,7 +44,7 @@ header #branding{
 }
 
 header #branding h1{
-  margin:0;
+  margin:5px;
   font-size:50px;
 }
 
@@ -74,7 +67,8 @@ header a:hover{
     text-align:center;
 }
 
-#paragraph{
+.paragraph{
+    text-align:justify;
     font-size:30px;
     font-weight:bold;
 }
@@ -114,22 +108,22 @@ div #baton{
    float:center;
    display:inline;
    padding: 0 20px 0 20px;
-}    
+}
 
-div #baton1{
-    width: 450px;
-    height: 80px;
-    color:#ffffff;
-    font-size:50px;
-    background-color:#6500ff;
-}    
-
-#box img{
-  width:950px;
+/* Home page */
+.box{
+    height: 700px;
+    width:100%;
+    position:relative ;
+}
+.box img{
+  width:100%;
   height:630px;
+  position: relative; 
   border:#000000 5px solid;
+  border-radius: 10px;
 } 
- 
+
 #box2 img{
     width:530px;
     height:700px;
@@ -149,20 +143,7 @@ div #baton1{
     color:#eaeaff;
 }
 /* log in form */
-#login_button{
-    text-align:center;
-    margin:20px;
-    height:200px;
-    width: 200px;
-    background:#40e0ff;
-    border:#2beaff 8px solid;
-    border-radius: 100px;
-    color:#000000;
-}
-#login_button a{
-    text-decoration:none;
-    font-size:50px;
-}
+
 .button_1{
   margin-top:40px;
   height:70px;
@@ -203,7 +184,7 @@ div #baton1{
   float:center;
   margin-top:15px;
   align:center;
-  
+
 }
 
 #newsletter input[type="email"]{
@@ -324,17 +305,90 @@ div #baton1{
     width:800px;
     border:#00136a 10px solid;
     border-radius: 20px;
+
+}
+/* static
+
+relative
+
+fixed
+
+absolute
+
+sticky
+
+ */
+/* Menu page */
+.login_button{
+    width:200px;
+    height:200px;
+    border:solid 5px #9cff95;
+    border-radius:50%;
+    background-color :#0069d069 ;
+    position:sticky;
+    left:750px;
+    top:180px;   
+}
+.login_button a{
+    text-decoration:none;
+    color:black;
+    font-size:45px;
+}
+.menu{
+    position:absolute ;
+    top: 300px;
+    left: 200px;
+    height: 900px;
+    width: 500px;
+}
+.baton1{
+    width: 400px;
+    height: 150px;
+    background-color:#0069d069;
+    border:5px #9cff95 solid;
+    border-radius:60px 30px;
+    margin: 10px;
+    padding: 10px;
+}
+.A1{
+    position:absolute;
+    top:50px;
+    left:80px;
+}
+.A2{
+    position:absolute;
+    top: 210px;
+    left: 80px;
     
+}
+.A3{
+    position:absolute;
+    top:370px;
+    left: 80px;
+}
+.A4{
+    position:absolute;
+    top:530px;
+    left: 80px;
+}
+.baton1 a{
+    text-decoration:none;
+    color:black;
+    font-size:45px;
 }
 
 /*footer**/
 footer{
-  padding:20px;
-  border-top:#00136a 10px solid;
-  color:#ffffff;
-  background-color:#2beaff;
-  text-align:center;
-  margin-top:800px;
+    margin-top:1500px;
+    background:linear-gradient(to left,#ff009d,#0057ff);
+    color:#ffffff;
+    padding-top:30px;
+    min-width: 100%;
+    min-height:120px;
+    border-top:#2beaff 10px solid;
+    border-bottom:#2beaff 10px solid;
+    z-index:999999;
+    text-align:center;
 }
 footer li{
   float:center;
@@ -346,7 +400,7 @@ footer #fb{
     height: 70px;
     background-color:#0017ece8;
     font-size:46px;
-    border:0;
+    border:1px solid black;
     border-radius: 20px;
 }
 footer #yt{
@@ -354,7 +408,7 @@ footer #yt{
     height: 70px;
     background-color:#ff001f;
     font-size:46px;
-    border:0;
+    border:1px black solid;
     border-radius: 20px;
 }
 footer #con{
@@ -362,7 +416,7 @@ footer #con{
     font-size:50px;
     font-weight:bold;
     text-align:center;
-    
+
 }
 footer #copy{
     font-size:15px;
