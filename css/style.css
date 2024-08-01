@@ -2,7 +2,7 @@ body{
   font: 35px/1.5 Arial, Helvetica,sans-serif;
   padding:0;
   margin:0; 
-  background:linear-gradient(8deg,#ff0088b0,#85ff408c,#1100ff8c);
+  background:linear-gradient(40deg,#ff0088b0,#85ff408c,#1100ff8c);
 }
 .h_button{
     width: 400px;
@@ -72,7 +72,7 @@ header a:hover{
     font-size:30px;
     font-weight:bold;
 }
-#link{
+.link{
     text-decoration:none;
     color:black;
 }
