@@ -2,46 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>index</title>
-    <link rel="stylesheet" href="css/style.css"
+    <title>Log in form</title>
+    <link rel="stylesheet" href="css/style-v2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
 </head>
 <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-          <h1><span class="highlight">Sifat's</span> First Website </h1>
-        </div>
-        <nav>
-          <ul>
-          <!--  <li class="current"><a href="Home.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li> -->
-            
-          </ul>
-        </nav>
-      </div>
-    </header>
-    <button class="h_button">
-        <a href="Home.html" id="link"> Let's Go..</a>
-    </button>
-   <footer >
-    <div>
-       <p id="con"> Contacts </p>
-        <ul>
-            <li>
-                    <button id="fb">
-                   <a href="https://www.facebook.com/mahmudulhasan.sifat.90?mibextid=ZbWKwL" id="link"> Facebook </a>
-                    </button>
-            </li>
-            <li>
-                    <button id="yt">
-                       <a href="https://youtube.com/@mhsifat?si=aDu2IoTE-J32nYu7" id="link"> YouTube
-                       </a> 
-                    </button>
-            </li>
-        </ul>
-        <p id="copy">Mh Sifat || Copyright &copy; 2024</p>
-</div>
-</footer>
+    <div class="container">
+    <div class="form-box">
+    <h1 class="title">Sign Up</h1>
+    <div class="underline"></div>
+    <form>
+    <div class="btn-firld">
+    <button type="button" class="signupbtn"><a href="sign up.html" class="link dis1">Sign Up</a></button>
+    <button type="button" class="disable signinbtn"> <a href="home.html" class="link dis1">Sign In</a></button>
+    </div>
+    <div class="input-group">
+        
+       <div class="input-field namefield">
+          <i class="fa-solid fa-user"></i>
+        <input type="text" placeholder="Name">  
+       </div><!-- end input field -->
+      
+       <div class="input-field">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+        <input type="email" placeholder="Email"> 
+       </div><!-- end input field -->
+      
+       <div class="input-field">
+       <i class="fa fa-key" aria-hidden="true"></i>
+        <input type="password" placeholder="Passoward"> 
+       </div><!-- end input field -->
+       
+       <p><span class="text">passwords Suggation</span> <a href="#">click here</a></p>
+    </div><!-- end input group -->
+    
+    </form>     
+    </div><!-- end form box -->
+    </div><!-- end container --> <script src="java/script.js"></script>
 </body>
 </html>
