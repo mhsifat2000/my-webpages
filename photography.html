@@ -5,74 +5,84 @@
     <title>My photography</title>
     <link rel="icon" href="img/logo.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/universal.css">
 </head>
 
-<header>
-      <div class="container">
-        <div id="branding">
-          <h1><span class="highlight">Sifat's</span> First Website </h1>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="Home.html">Home</a></li>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="menu.html">Back</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-
-
 <body>
+<header> 
+     <div class="header">
+          <h1 class="branding">
+               <span class="highlight">Sifat's</span> First Website
+          </h1>
+          <div class="navigation">
+               <div class="btn">
+              <a href="home.html">Home
+              </a>
+               </div>
+               <div class="btn">
+              <a href="menu.html">Menu
+              </a>
+               </div>
+               <div class="btn">
+              <a href="portfolio.html">
+                   Portfolio
+              </a>
+               </div>
+               
+          </div><!-- end navigation -->
+          
+     </div><!-- end header -->
+</header> 
+
+     
     <div>
-       <h1 id="h1"><u>Story of a photographer</u></h1>
+       <h1 class="h1">Story of a photographer</h1>
     </div>
-    <div >
-        <table align="center" >
-            <tr>
-                <td>
-                     <img src="img/me.jpg" height="640px" width="480px"  alt="my photo">
+    <div class="img-box">
+           <div class="box2">
+                     <img src="img/me.jpg"  alt="my photo">
               
-                </td>
-            </tr>
-            <tr>    
-                <td>
-                       <img src="img/logo.png"height="300px" width="300px" alt="logo">
-                </td>
-            </tr>
-   
-    
-    </table>
+             </div>  
+        </div>
+        <div class="photo-logo"> 
+            
+                
+                
+                       <img src="img/logo.png" alt="logo">
+                
+            
     </div>
-    <div>
+    <div class="paragraph">
         I am a photographer. I love photography. But I have no camera! I usually take photo by my smartphone, <b>POCO X3 Pro</b> with <b>Gcam</b>. Gcam can use full raw mussel power of camera in my phone.<br><br>
   I hope one day, I own everything!       
-    </div>
-    <div class="photo">Some of my photography :<br>
-     <button id="photos">
-  <a href="image.html" style="text-decoration:none; color:white" >click here to see
-        </button>
-        </a>
+    <br>
+    Some of my photography :
+     <div class="link-page">
+  <a href="image.html" class="link">click here to see
+  </a>
         </div>
-     <footer >
+        </div>
+        
+        
+<footer >
     <div>
-       <p id="con"> Contacts </p>
+       <p class="con"> Contacts </p>
         <ul>
             <li>
-                    <button id="fb">
-                   <a href="https://www.facebook.com/mahmudulhasan.sifat.90?mibextid=ZbWKwL" id="link"> Facebook </a>
+                    <button class="fb">
+                   <a href="https://www.facebook.com/mahmudulhasan.sifat.90?mibextclass=ZbWKwL" class="link"> Facebook </a>
                     </button>
             </li>
             <li>
-                    <button id="yt">
-                       <a href="https://youtube.com/@mhsifat?si=aDu2IoTE-J32nYu7" id="link"> YouTube
+                    <button class="yt">
+                       <a href="https://youtube.com/@mhsifat?si=aDu2IoTE-J32nYu7" class="link"> YouTube
                        </a> 
                     </button>
             </li>
         </ul>
-        <p id="copy">Mh Sifat || Copyright &copy; 2024</p>
+        <p class="copy">Mh Sifat || Copyright &copy; 2024</p>
 </div>
 </footer> 
+
 </body>     
 </html>
