@@ -1,1 +1,143 @@
-.
+
+body{
+   font: 35px/1.5 Arial, Helvetica,sans-serif;
+   padding:0;
+   margin:0;
+    background:linear-gradient(40deg,#ff0088b0,#85ff408c,#1100ff8c);
+   background-attachment: scroll;
+   background-size:cover ;
+}
+
+body a{
+     text-decoration:none;
+}
+
+/*header**/
+header{
+     position:sticky;
+     top: 0;
+     margin-bottom: 50px ;
+     border-bottom:10px #2beaff solid;
+     z-index:9;
+}
+.header{
+     padding: 0px;
+     background:#35424a;
+     min-height:180px ;
+     width: 100%;
+     position: relative ;
+}
+.branding{
+    margin:0px;
+    font-size:60px;
+    color:white;
+    display:inline-block;
+} 
+.highlight {
+     color:#8098ff;
+     font-weight:bold;
+}
+.navigation{
+     position: absolute;
+     right:0px;
+     bottom:10px;
+     height: 30%;
+     min-width:50% ;
+     padding: 10px;
+     display:flex;
+     justify-content:space-around;
+}
+.btn{
+     height:50px ;
+     border:5px solid #00769c;
+     border-radius:15px;
+     align-content:center;
+}
+.btn:hover{
+     transition-timing-function: ease-in-out;
+     transition-duration: 0.4s;
+     transform: scale(.9);
+}
+.btn a{
+     color:#ffffff;
+     text-decoration:none;
+     text-transform: uppercase;
+     font-size:30px;
+     padding: 10px;     
+}
+
+/*footer**/
+footer{
+    margin-top:300px;
+    background:linear-gradient(to left,#ff1f00a5,#0015d995);
+    color:#ffffff;
+    padding-top:30px;
+    min-width: 100%;
+    min-height:120px;
+    border-top:#2beaff 10px solid;
+    border-bottom:#2beaff 10px solid;
+    text-align:center;
+}
+footer li{
+  float:center;
+  display:inline;
+  padding:0 20px 0 20px;
+}
+footer .fb{
+    width: 250px;
+    height: 70px;
+    background-color:#0017ece8;
+    font-size:46px;
+    border:1px solid black;
+    border-radius: 20px;
+}
+footer .yt{
+    width: 250px;
+    height: 70px;
+    background-color:#ff001f;
+    font-size:46px;
+    border:1px black solid;
+    border-radius: 20px;
+}
+footer .con{
+    color:#ffffff;
+    font-size:50px;
+    font-weight:bold;
+    text-align:center;
+
+}
+footer .copy{
+    font-size:15px;
+    color:#000000;
+}
+footer a{
+     text-decoration :none;
+     color:black; 
+}
+
+/* all h1 */
+.h1{
+     font-size:80px;
+     width: max-content;
+     position: relative ;
+     margin:100px auto;
+     cursor:pointer;
+     text-shadow:2px 2px 8px #000000b3;
+}
+.h1::after{
+    content:"";
+    position :absolute ;
+    bottom:0px;
+    height: 7px;
+    width: 100%;
+    left: 0;
+    border-radius: 30%;
+    background: black;
+    transition :0.3s;
+    transition-timing-function: ease-in-out;
+    
+}
+.h1:hover::after{
+     transform:scalex(0.0);
+     transition-duration:.5s; 
+}
