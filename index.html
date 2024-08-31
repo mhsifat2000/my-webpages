@@ -4,11 +4,25 @@
     <meta charset="UTF-8">
     <title>Log in form</title>
     <link rel="stylesheet" href="css/style-v2.css">
+    <link rel="stylesheet" href="css/universal.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
 </head>
-<body>
+<body onload="lodingFunction()">
+    <div id="center">
+       <div class="ring">      
+       </div> 
+         <span>
+                   loading...
+         </span>
+    </div>
+         <script>
+             let loader =document.getElementById("center");
+             function lodingFunction(){     
+               loader.style.display="none";
+}
+         </script>
     <div class="container">
     <div class="form-box">
     <h1 class="title">Sign Up</h1>
