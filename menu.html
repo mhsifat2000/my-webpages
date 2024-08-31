@@ -8,7 +8,20 @@
     <link rel="stylesheet" href="css/universal.css">
 </head>
 
-<body>
+<body onload="lodingFunction()">
+    <div id="center">
+       <div class="ring">      
+       </div> 
+         <span>
+                   loading...
+         </span>
+    </div>
+         <script>
+             let loader =document.getElementById("center");
+             function lodingFunction(){     
+               loader.style.display="none";
+}
+         </script>
     
 <header> 
      <div class="header">
