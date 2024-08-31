@@ -8,17 +8,20 @@
     <link rel="stylesheet" href="css/universal.css">
 </head>
 <body onload="lodingFunction()">
-    <div id="center">
+     <div id="center">
        <div class="ring">      
        </div> 
          <span>
                    loading...
          </span>
     </div>
+    <div class="body" id="body"> 
          <script>
              let loader =document.getElementById("center");
+             let body =document.getElementById("body");
              function lodingFunction(){     
                loader.style.display="none";
+               body.style.display="block";
 }
          </script>
 
@@ -108,6 +111,6 @@ Then I had pass my <a href="https://en.wikipedia.org/wiki/Junior_School_Certific
 </div>
 </footer>           
 
-
+</div>
 </body>
 </html>
