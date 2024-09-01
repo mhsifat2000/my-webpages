@@ -10,17 +10,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
 </head>
 <body onload="lodingFunction()">
-    <div id="center">
+     <div id="center">
        <div class="ring">      
        </div> 
          <span>
                    loading...
          </span>
     </div>
+    <div class="body" id="body"> 
          <script>
              let loader =document.getElementById("center");
+             let body =document.getElementById("body");
              function lodingFunction(){     
                loader.style.display="none";
+               body.style.display="block";
 }
          </script>
     <div class="container">
@@ -55,5 +58,6 @@
     </form>     
     </div><!-- end form box -->
     </div><!-- end container --> <script src="java/script.js"></script>
+</div>
 </body>
 </html>
