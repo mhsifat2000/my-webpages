@@ -11,6 +11,9 @@ body{
 body a{
      text-decoration:none;
 }
+.body{
+     display:none;
+}
 
 /*header**/
 header{
