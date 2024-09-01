@@ -1,20 +1,70 @@
-
+:root{
+    --background : linear-gradient(40deg,#ff0088b0,#85ff408c,#1100ff8c);
+    --text-color:black;
+    --footer-bg:linear-gradient(to left,#ff1f00a5,#0015d995);
+    --t-button:#505050;
+    --toggole:translateX(80px);
+    --after-bg:#f8ff80b5;
+    --after-radious:50%;
+    --after-shadow:0 0 0 0;
+    
+}
+.darkmode{
+    --background :#2a3032;
+    --text-color: white;
+    --footer-bg:#2a3032;
+    --t-button:#0c0025;
+    --toggole:translateX(15px) scale(.8) translateY(-8px);
+    --after-bg: transparent;
+    --after-radious:50%;
+    --after-shadow:-10px 10px 0 5px white;
+}
+#swich-theme{
+    background:var(--t-button) ;
+    color:var(--text-color);
+    position:sticky;
+    border: 0;
+    outline: 0;
+    top: 20px;
+    left: 30px;
+    height: 70px;
+    width: 150px;
+    border-radius: 50px;
+    display: flex; 
+    align-items: center;    
+}
+#swich-theme::after{
+    content: '';
+    width: 60px;
+    height: 60px;
+    border-radius: var(--after-radious);
+    background: var(--after-bg);
+    box-shadow: var(--after-shadow);
+    position: absolute;
+    transform:var(--toggole);
+    transition-duration:.5s; 
+    transition-timing-function: ease-in-out; 
+}
+    
 body{
    font: 35px/1.5 Arial, Helvetica,sans-serif;
    padding:0;
    margin:0;
-    background:linear-gradient(40deg,#ff0088b0,#85ff408c,#1100ff8c);
+   background:var(--background);
    background-attachment: scroll;
    background-size:cover ;
+   color:var(--text-color);
+   position: relative;
 }
 
 body a{
      text-decoration:none;
+     color: var(--text-color);
+     font-weight:bold;
 }
 .body{
-     display:none;
+    display: none;
 }
-
 /*header**/
 header{
      position:sticky;
@@ -72,8 +122,8 @@ header{
 /*footer**/
 footer{
     margin-top:300px;
-    background:linear-gradient(to left,#ff1f00a5,#0015d995);
-    color:#ffffff;
+    background:var(--footer-bg);
+    color:var(--text-color);
     padding-top:30px;
     min-width: 100%;
     min-height:120px;
@@ -103,7 +153,7 @@ footer .yt{
     border-radius: 20px;
 }
 footer .con{
-    color:#ffffff;
+    color:var(--text-color);
     font-size:50px;
     font-weight:bold;
     text-align:center;
@@ -111,7 +161,7 @@ footer .con{
 }
 footer .copy{
     font-size:15px;
-    color:#000000;
+    color:var(--text-color);
 }
 footer a{
      text-decoration :none;
@@ -135,7 +185,7 @@ footer a{
     width: 100%;
     left: 0;
     border-radius: 30%;
-    background: black;
+    background: var(--text-color);
     transition :0.3s;
     transition-timing-function: ease-in-out;
     
