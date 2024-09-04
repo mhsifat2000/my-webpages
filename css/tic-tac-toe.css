@@ -48,12 +48,13 @@
 }
 
 .msg-container {
-  background: red;
   display:flex;
   flex-flow:column ;
   padding: 15px;
   border: 3px dashed blueviolet;
   border-radius: 1rem;
+  height: auto;
+  width: 90vw;
 }
 .container {
   height: 70vh;
