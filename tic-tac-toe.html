@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/universal.css">
+    <link rel="stylesheet" href="css/tic-tac-toe.css" />
+</head>
+<body onload="lodingFunction()">
+    <div id="center">
+       <div class="ring">      
+       </div> 
+         <span>
+                   loading...
+         </span>
+    </div>
+    <div class="body" id="body"> 
+    <script>
+             let loader =document.getElementById("center");
+             let body =document.getElementById("body");
+             function lodingFunction(){     
+          loader.style.display="none"; 
+             body.style.display="block"; 
+};
+setInterval(lodingFunction, 10000);
+         </script>
+<header> 
+     <div class="header">
+          <h1 class="branding">
+               <span class="highlight">Sifat's</span> First Website
+          </h1>
+          <div class="navigation">
+               <div class="btn">
+              <a href="home.html">Home
+              </a>
+               </div>
+               <div class="btn">
+              <a href="menu.html">Menu
+              </a>
+               </div>
+               <div class="btn">
+              <a href="portfolio.html">
+                   Portfolio
+              </a>
+               </div>
+               
+          </div><!-- end navigation -->
+     <div id="swich-theme" class="swich-theme"></div>
+<script src="java/theam.js"></script>     
+     </div><!-- end header -->
+</header> 
+<div class="main">
+    <h1 class="game-h">Tic Tac Toe</h1>
+       <button id="new-btn" class="new-btn">New Game</button>
+    <div class="msg-container hide">
+    </div>
+    <div>
+      <div class="container hide">
+        <div class="game">
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+          <button class="box"></button>
+        </div>
+      </div>
+      <button id="reset-btn" class="hide">Reset Game</button>
+     </div>
+    <script src="java/app.js"></script>
+
+
+</div>    
+
+<footer >
+    <div>
+       <p class="con"> Contacts </p>
+        <ul>
+            <li>
+                 <i class="fa-brands fa-facebook"></i>
+                    <button class="fb">
+                   <a href="https://www.facebook.com/mahmudulhasan.sifat.90?mibextclass=ZbWKwL" class="link"> Facebook </a>
+                    </button>
+            </li>
+            <li>
+                    <button class="yt">
+                       <a href="https://youtube.com/@mhsifat?si=aDu2IoTE-J32nYu7" class="link"> YouTube
+                       </a> 
+                    </button>
+            </li>
+        </ul>
+        <p class="copy">Mh Sifat || Copyright &copy; 2024</p>
+</div>
+</footer>           
+</div>
+
+</body>
+</html>
