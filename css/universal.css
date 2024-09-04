@@ -71,7 +71,7 @@ header{
      top: 0;
      margin-bottom: 50px ;
      border-bottom:10px #2beaff solid;
-     z-index:9;
+     z-index:9999;
 }
 .header{
      padding: 0px;
