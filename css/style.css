@@ -46,7 +46,8 @@
      font-weight:bold;
 }
 .menu{
-     height: 1000px;
+     min-height:1000px;
+     height:auto;
      width: 50%;
      position:relative ;
      display:block;
